@@ -14,6 +14,7 @@ public class PasswordValidator {
      * hsaLower เช็คตัวพิมพ์เล็ก
      * hasUpper เช็คตัวพิมพ์ใหญ่
      * hasSpacial เช็คอักษรพิเศษ
+     * count นับรหัสที่ถูกต้อง
     */
     public static PasswordStrength validate(String password) { // Function Type ให้เป็น PasswordStrength 
 
