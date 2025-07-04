@@ -15,7 +15,7 @@ public class PasswordValidatorTest{
         }
 
         // Test Case 2: รหัสผ่านมีแค่ตัวเลขหรือตัวอักษรมากกว่าหรือเท่ากับ 8 ตัว ควรจะ WEAK
-        pw = "589565190";
+        pw = "abcdefghi";
         PasswordStrength result2 = PasswordValidator.validate(pw);
         if (result2 == PasswordStrength.WEAK) {
             System.out.println("Test Case 2 : "+pw+" : Passed: Short password is WEAK.");
